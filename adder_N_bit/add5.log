@@ -1,0 +1,87 @@
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:28 on Sep 11,2025
+# vlog -reportprogress 300 half_adder.v 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 22:23:28 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:28 on Sep 11,2025
+# vlog -reportprogress 300 full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 22:23:29 on Sep 11,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:29 on Sep 11,2025
+# vlog -reportprogress 300 addN.v 
+# -- Compiling module addN
+# 
+# Top level modules:
+# 	addN
+# End time: 22:23:29 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:29 on Sep 11,2025
+# vlog -reportprogress 300 tb_addN.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:23:29 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:23:30 on Sep 11,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim work.tb -l add1.log 
+# Start time: 22:23:32 on Sep 11,2025
+# Loading work.tb
+# Loading work.addN
+# Loading work.half_adder
+# Loading work.full_adder
+#  4  1  5
+#  9  3 12
+# 13 13 26
+#  5 18 23
+#  1 13 14
+# 22 29 51
+# 13 12 25
+# 25  6 31
+#  5 10 15
+#  5 23 28
+# 18 15 33
+# 18 14 32
+#  8  5 13
+# 28 29 57
+# 13  5 18
+#  3 10 13
+#  0  0  0
+# 10 29 39
+# 22 19 41
+# 13 19 32
+# 11 21 32
+#  2 14 16
+# 29 15 44
+#  3 10 13
+# 10 28 38
+# 18 10 28
+#  1 24 25
+# 24  9 33
+# 11 22 33
+#  6 14 20
+# 28 10 38
+# 11 17 28
+#  5 15 20
+# 27 26 53
+# 30 21 51
+# 17 25 42
+#  2 12 14
+# 31 15 46
+# 24 23 47
+# 31 28 59
+# End time: 22:23:50 on Sep 11,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

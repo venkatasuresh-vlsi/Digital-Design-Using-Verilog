@@ -1,0 +1,85 @@
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:04 on Sep 11,2025
+# vlog -reportprogress 300 half_adder.v 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 22:23:04 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:04 on Sep 11,2025
+# vlog -reportprogress 300 full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 22:23:04 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:06 on Sep 11,2025
+# vlog -reportprogress 300 addN.v 
+# -- Compiling module addN
+# 
+# Top level modules:
+# 	addN
+# End time: 22:23:06 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:23:06 on Sep 11,2025
+# vlog -reportprogress 300 tb_addN.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:23:06 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:23:08 on Sep 11,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim work.tb -l add1.log 
+# Start time: 22:23:09 on Sep 11,2025
+# Loading work.tb
+# Loading work.addN
+# Loading work.half_adder
+# Loading work.full_adder
+#  4  1  5
+#  9  3 12
+# 13 13 26
+#  5  2  7
+#  1 13 14
+#  6 13 19
+# 13 12 25
+#  9  6 15
+#  5 10 15
+#  5  7 12
+#  2 15 17
+#  2 14 16
+#  8  5 13
+# 12 13 25
+# 13  5 18
+#  3 10 13
+#  0  0  0
+# 10 13 23
+#  6  3  9
+# 13  3 16
+# 11  5 16
+#  2 14 16
+# 13 15 28
+#  3 10 13
+# 10 12 22
+#  2 10 12
+#  1  8  9
+#  8  9 17
+# 11  6 17
+#  6 14 20
+# 12 10 22
+# 11  1 12
+#  5 15 20
+# 11 10 21
+# 14  5 19
+#  1  9 10
+#  2 12 14
+# 15 15 30
+#  8  7 15
+# 15 12 27

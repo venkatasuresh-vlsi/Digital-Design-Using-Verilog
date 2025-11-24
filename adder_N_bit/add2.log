@@ -1,0 +1,85 @@
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:22:07 on Sep 11,2025
+# vlog -reportprogress 300 half_adder.v 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 22:22:07 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:22:07 on Sep 11,2025
+# vlog -reportprogress 300 full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 22:22:08 on Sep 11,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:22:08 on Sep 11,2025
+# vlog -reportprogress 300 addN.v 
+# -- Compiling module addN
+# 
+# Top level modules:
+# 	addN
+# End time: 22:22:08 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:22:08 on Sep 11,2025
+# vlog -reportprogress 300 tb_addN.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:22:08 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:22:09 on Sep 11,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim work.tb -l add1.log 
+# Start time: 22:22:11 on Sep 11,2025
+# Loading work.tb
+# Loading work.addN
+# Loading work.half_adder
+# Loading work.full_adder
+# 0 1 1
+# 1 3 4
+# 1 1 2
+# 1 2 3
+# 1 1 2
+# 2 1 3
+# 1 0 1
+# 1 2 3
+# 1 2 3
+# 1 3 4
+# 2 3 5
+# 2 2 4
+# 0 1 1
+# 0 1 1
+# 1 1 2
+# 3 2 5
+# 0 0 0
+# 2 1 3
+# 2 3 5
+# 1 3 4
+# 3 1 4
+# 2 2 4
+# 1 3 4
+# 3 2 5
+# 2 0 2
+# 2 2 4
+# 1 0 1
+# 0 1 1
+# 3 2 5
+# 2 2 4
+# 0 2 2
+# 3 1 4
+# 1 3 4
+# 3 2 5
+# 2 1 3
+# 1 1 2
+# 2 0 2
+# 3 3 6
+# 0 3 3
+# 3 0 3
